@@ -10,7 +10,13 @@ void main(){
     while(t--){
         int n;
         scanf("%d", &n);
-        isPrime(n) ? printf("YES\n") : printf("NO\n");
+        for(int i = 0; i < n; i++){
+            int k;
+            scanf("%d", &k);
+            if(isPrime(k))
+                printf("%d ", k);
+        }
+        printf("\n");
     }
 }
 
