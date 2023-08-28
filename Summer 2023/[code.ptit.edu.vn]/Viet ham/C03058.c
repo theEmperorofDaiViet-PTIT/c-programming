@@ -29,6 +29,8 @@ void main(){
 }
 
 void createSieve(bool s[]){
+    s[0] = false;
+    s[1] = false;
     for(int i = 2; i * i <= 100; i++){
         if(s[i] == true){
             for(int j = i * i; j <= 100; j += i){
