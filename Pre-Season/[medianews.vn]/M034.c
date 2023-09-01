@@ -39,7 +39,6 @@ void main(){
     scanf("%d %d", &a, &b);
 
     int n = (a > b) ? a : b;
-    char arr[n];
 
     for(int i = 0, k = n - 1; i < a; i++, k--){
         for(int j = 0, l = n - 1; j < i; j++, l--){
