@@ -1,3 +1,7 @@
+// CHUYỂN SANG SỐ NHỊ PHÂN
+
+// Nhập vào số nguyên dương a có không quá 3 chữ số. Hãy in biểu diễn dưới dạng nhị phân của số a.
+
 #include<stdio.h>
 
 void main(){

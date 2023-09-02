@@ -1,3 +1,18 @@
+// GIÁ TRỊ NHỎ NHẤT TRONG BA SỐ
+
+// Viết chương trình nhập vào ba số nguyên có trị tuyệt đối không quá 6 chữ số. Tìm giá trị nhỏ nhất trong ba số đó.
+
+// Input
+// Chỉ có một dòng ghi ba số a,b,c cách nhau một khoảng trống. Cả ba số không quá 6 chữ số.
+// Output
+// Ghi ra số nhỏ nhất.
+
+// Ví dụ:
+// Input:
+// 10 20 30
+// Output:
+// 10
+
 #include<stdio.h>
 
 void sort(int a[], int n);
