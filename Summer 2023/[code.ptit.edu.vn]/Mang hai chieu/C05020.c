@@ -1,3 +1,17 @@
+// MA TRẬN XOẮN ỐC FIBONACCI
+
+// Ma trận xoáy ốc Fibonacci cấp N là ma trận vuông có N*N phần tử. 
+// Các số được điền vào ma trận theo chiều kim đồng hồ đều là các số thuộc dãy Fibonacci từ nhỏ đến lớn (tính từ số 0).
+// Viết chương trình nhập N (không quá 9) và in ra ma trận xoắn ốc Fibonacci tương ứng.
+
+// Ví dụ:
+// INPUT
+// 3
+// OUTPUT
+// 0 1 1
+// 13 21 2
+// 8 5 3
+
 #include<stdio.h>
 
 void main(){

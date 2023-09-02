@@ -1,3 +1,26 @@
+// TÌM HÀNG NHIỀU SỐ NGUYÊN TỐ NHẤT
+
+// Viết chương trình nhập vào ma trận vuông cấp n (1 < n < 30) chỉ bao gồm các số nguyên dương không quá 1000.
+// Thực hiện tìm hàng có nhiều phần tử là số nguyên tố nhất. Nếu có nhiều hơn một hàng thỏa mãn thì in ra hàng đầu tiên.
+
+// INPUT
+// - Dòng đầu tiên là cấp của ma trận
+// - Các dòng tiếp theo là các phần tử của ma trận
+// OUTPUT
+// - Dòng đầu tiên là số thứ tự hàng thỏa mãn
+// - Dòng thứ hai liệt kê các phần tử thỏa mãn
+
+// Ví dụ:
+// INPUT
+// 4
+// 8 2 3 4
+// 5 6 7 8
+// 9 10 11 12
+// 13 14 15 16
+// OUTPUT
+// 1
+// 2 3
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<math.h>

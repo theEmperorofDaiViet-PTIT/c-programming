@@ -1,3 +1,23 @@
+// MA TRẬN XOẮN ỐC NGƯỢC
+
+// Ma trận xoáy ốc ngược cấp N là ma trận vuông có N*N phần tử. Các số được điền vào ma trận trận theo chiều kim đồng hồ theo thứ tự giảm dần về 1.
+
+// Dữ liệu vào:
+// Dòng 1 ghi số bộ test
+// Mỗi bộ test ghi số N (1<N<20). 
+// Kết quả:
+// Ghi ra thứ tự bộ test và ma trận xoáy ốc ngược tương ứng
+
+// Ví dụ:
+// Input:
+// 1
+// 3
+// Output:
+// Test 1:
+// 9 8 7
+// 2 1 6
+// 3 4 5
+
 #include<stdio.h>
 
 void main(){

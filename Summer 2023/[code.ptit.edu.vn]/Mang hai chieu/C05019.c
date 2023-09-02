@@ -1,3 +1,24 @@
+// MA TRẬN XOẮN ỐC NGUYÊN TỐ
+
+// Ma trận xoắn ốc nguyên tố cấp N là ma trận vuông có N*N phần tử. 
+// Các số được điền vào ma trận theo chiều kim đồng hồ đều là các số nguyên tố từ nhỏ đến lớn.
+
+// Dữ liệu vào:
+// Dòng 1 ghi số bộ test
+// Mỗi bộ test ghi số N (1<N<20). 
+// Kết quả:
+// Ghi ra thứ tự bộ test và ma trận xoắn ốc nguyên tố tương ứng
+
+// Ví dụ:
+// Input:
+// 1
+// 3
+// Output:
+// Test 1:
+//  2  3  5
+// 19 23  7
+// 17 13 11
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<math.h>

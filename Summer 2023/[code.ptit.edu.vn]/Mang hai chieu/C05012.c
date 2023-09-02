@@ -1,3 +1,37 @@
+// TÍCH MA TRẬN CHÉO
+
+// Cho một số nguyên dương N không quá 20. Ma trận vuông A cấp N*N được tạo theo mẫu trong bảng dưới. 
+// Viết chương trình tính tích của A với chuyển vị của A.
+
+// Với N = 4
+// 1 0 0 0
+// 1 2 0 0
+// 1 2 3 0
+// 1 2 3 4
+
+// Với N = 5
+// 1 0 0 0 0
+// 1 2 0 0 0
+// 1 2 3 0 0
+// 1 2 3 4 0
+// 1 2 3 4 5
+
+// Input: 
+// Dòng 1 ghi số bộ test. Mỗi bộ test ghi trên một dòng số N (1<N<20).
+// Output:
+// Ghi thứ tự bộ test, sau đó là N hàng ghi ma trận kết quả. Tiếp theo là một dòng trống.
+
+// Ví dụ:
+// Input:
+// 1
+// 4
+// Output:
+// Test 1:
+// 1 1 1 1
+// 1 5 5 5
+// 1 5 14 14
+// 1 5 14 30
+
 #include<stdio.h>
 
 void transpose(int n, int m, int a[n][m], int b[m][n]);

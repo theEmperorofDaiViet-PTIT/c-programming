@@ -1,3 +1,23 @@
+// MA TRẬN XOẮN ỐC 1
+
+// Ma trận xoắn ốc cấp N là một ma trận vuông cấp N*N trong đó ghi các số nguyên dương tăng dần từ 1 đến N*N được điền theo thứ tự xoắn ốc từ ngoài vào trong.
+// Hãy viết chương trình in ra ma trận xoắn ốc cấp N.
+
+// Input:
+// Chỉ có một dòng ghi số N (1 ≤ N ≤ 100)
+// Ouput:
+// Ghi ra ma trận kết quả có N dòng, mỗi giá trị số cách nhau một khoảng trống.
+
+// Ví dụ:
+// Input:
+// 5
+// Output:
+// 1 2 3 4 5
+// 16 17 18 19 6
+// 15 24 25 20 7
+// 14 23 22 21 8
+// 13 12 11 10 9
+
 #include<stdio.h>
 
 void main(){

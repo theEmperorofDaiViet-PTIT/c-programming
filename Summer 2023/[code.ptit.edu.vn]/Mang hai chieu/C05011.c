@@ -1,3 +1,26 @@
+// TÍCH MA TRẬN VỚI CHUYỂN VỊ CỦA NÓ
+
+// Cho ma trận A chỉ gồm các số nguyên dương cấp N*M. Hãy viết chương trình tính tích của A với ma trận chuyển vị của A.    
+
+// Input: 
+// Dòng đầu tiên ghi số bộ test. 
+// Với mỗi bộ test: 
+// Dòng đầu tiên ghi hai số n và m là bậc của ma trận a; 
+// n dòng tiếp theo, mỗi dòng ghi m số của một dòng trong ma trận A.
+// Output:
+// Với mỗi bộ test ghi ra thứ tự bộ test, sau đó đến ma trận tích tương ứng, mỗi số cách nhau đúng một khoảng trống.
+
+// Ví dụ:
+// Input:
+// 1
+// 2  2
+// 1  2
+// 3  4
+// Output:
+// Test 1:
+// 5 11
+// 11 25
+
 #include<stdio.h>
 
 void transpose(int n, int m, int a[n][m], int b[m][n]);
