@@ -1,3 +1,27 @@
+// BẢN GHI
+
+// Cho một tập N bộ 3 số là các cạnh của một tam giác.
+// Định nghĩa kiểu dữ liệu bản ghi có thẻ là tamgiac với thành phần trường dữ liệu là a, b, c là ba cạnh
+// Xây dựng hàm nhập thông tin cho bản ghi tam giác
+// Xây dựng hàm tính diện tích cho tam giác
+// Xây dựng hàm in thông tin tam giác theo định dạng (a,b,c) ra màn hình
+// Xây dựng hàm ghi tập bản ghi tam giác vào file có tên FPLSP22GxxmsvTG.fpl, file nhị phân.
+// Áp dụng các hàm xây dựng được, đọc thông tin vào cho các bản ghi, in ra lần lượt các bộ cạnh tam giác theo thứ tự diện tích tăng dần
+
+// Vào:
+// Gồm 02 dòng, dòng đầu là số bộ số, các dòng tiếp theo là ba bộ số tương ứng là ba cạnh của tam giác, cách nhau bởi dấu cách
+// Ra:
+// Các dòng tương ứng các cạnh của tam giác theo thứ tự diện tích tăng dần
+
+// Ví dụ:
+// In:
+// 2
+// 9 9 9
+// 3 4 5
+// Out:
+// 3 4 5
+// 9 9 9
+
 #include<stdio.h>
 #include<math.h>
 

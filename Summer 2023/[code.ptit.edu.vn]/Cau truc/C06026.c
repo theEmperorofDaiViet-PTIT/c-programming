@@ -1,3 +1,23 @@
+// TÌM TỪ THUẬN NGHỊCH DÀI NHẤT
+
+// Cho một văn bản. Hãy tìm ra từ thỏa mãn tính chất thuận nghịch có độ dài lớn nhất trong và cho biết từ đó xuất hiện bao nhiêu lần.
+// Nếu có nhiều từ cùng có độ dài lớn nhất thì in ra tất cả các từ đó theo thứ tự xuất hiện.
+
+// Input: Văn bản không quá 1000 từ.
+// Output: Ghi ra trên một dòng từ thuận nghịch có độ dài lớn nhất và số lần xuất hiện của nó.
+// Nếu có nhiều từ cùng có độ dài lớn nhất thì các từ được liệt kê theo thứ tự xuất hiện ban đầu.
+
+// Ví dụ:
+// Input:
+// AAA BAABA HDHDH ACBSD SRGTDH DDDDS
+// DUAHD AAA AD DA HDHDH AAA AAA AAA AAA
+// DDDAS HDHDH HDH AAA AAA AAA AAA AAA
+// AAA AAA AAA
+// DHKFKH DHDHDD HDHDHD DDDHHH HHHDDD
+// TDTD
+// Output:
+// HDHDH 3
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<string.h>
