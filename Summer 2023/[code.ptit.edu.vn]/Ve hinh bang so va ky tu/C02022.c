@@ -1,3 +1,22 @@
+// TAM GIÁC SỐ - 8
+
+// Nhập vào chiều cao tam giác (không quá 9).
+// Vẽ hình tam giác số theo nguyên tắc tương ứng theo mẫu trong ví dụ dưới đây.
+
+// Input
+// Chỉ có một số dòng ghi chiều cao (không quá 9).
+// Output
+// Ghi ra kết quả theo mẫu.
+
+// Ví dụ:
+// Input:
+// 4
+// Output:
+// 1
+// 3 2
+// 4 5 6
+// 10 9 8 7
+
 #include<stdio.h>
 
 void main(){
