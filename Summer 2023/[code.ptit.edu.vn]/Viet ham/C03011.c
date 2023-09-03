@@ -1,3 +1,19 @@
+// SỐ STRONG TRONG ĐOẠN
+
+// Viết chương trình C cho phép nhập vào hai số a và b (a có thể lớn hơn b). Liệt kê các sô Strong nằm trong đoạn a, b.
+// Các kết quả thỏa mãn liệt kê cách nhau một khoảng trống.
+
+// Input:
+// Chỉ có một dòng ghi hai số a, b.
+// Output:
+// Ghi ra kết quả tính toán trên một dòng
+
+// Ví dụ:
+// Input:
+// 1 1000
+// Output:
+// 1 2 145
+
 #include<stdio.h>
 
 int checkStrong(int n);

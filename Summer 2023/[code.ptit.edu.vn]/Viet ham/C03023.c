@@ -1,3 +1,20 @@
+// SỐ THUẬN NGHỊCH KHÔNG CÓ CHỮ SỐ 9
+
+// Viết chương trình nhập vào số N không quá 4 chữ số, thực hiện liệt kê các số thuận nghịch lớn hơn 1 và nhỏ hơn N thỏa mãn không chứa chữ số 9. 
+// Có bao nhiêu số như vậy.
+
+// Input
+// Chỉ có một dòng ghi số n. 
+// Output
+// Gồm hai dòng: dòng đầu liệt kê các số thỏa mãn, dòng thứ 2 ghi số lượng các số tìm được.
+
+// Ví dụ:
+// Input:
+// 100
+// Output:
+// 2 3 4 5 6 7 8 11 22 33 44 55 66 77 88
+// 15
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<math.h>

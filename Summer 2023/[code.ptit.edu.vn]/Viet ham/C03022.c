@@ -1,3 +1,20 @@
+// TỔNG CHỮ SỐ CHIA HẾT CHO 5
+
+// Viết chương trình nhập vào số nguyên dương n không quá 5 chữ số. 
+// Thực hiện liệt kê các số nguyên tố nhỏ hơn n và thỏa mãn có tổng các chữ số chia hết cho 5. Có bao nhiêu số như vậy.
+
+// Input
+// Chỉ có một dòng ghi số n.
+// Output
+// Gồm hai dòng: dòng đầu liệt kê các số thỏa mãn, dòng thứ 2 ghi số lượng các số tìm được.
+
+// Ví dụ:
+// Input:
+// 100
+// Output:
+// 5 19 23 37 41 73
+// 6
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<math.h>

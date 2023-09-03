@@ -1,3 +1,21 @@
+// SỐ NGUYÊN TỐ NHỎ HƠN N
+
+// Viết chương trình liệt kê các số nguyên tố nhỏ hơn N với N là một số nguyên dương không quá 10^6.
+
+// Input
+// Dữ liệu vào chỉ có duy nhất một số N.
+// Output
+// Kết quả ghi mỗi số nguyên tố trên một dòng, theo thứ tự từ nhỏ đến lớn.
+
+// Ví dụ:
+// Input:
+// 10
+// Output:
+// 2
+// 3
+// 5
+// 7
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<math.h>

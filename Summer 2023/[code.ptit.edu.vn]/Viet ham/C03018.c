@@ -1,3 +1,19 @@
+// SỐ ĐẸP 1
+
+// Một số được coi là đẹp nếu nó là số nguyên tố và tổng chữ số là một số trong dãy Fibonaci. 
+// Viết chương trình liệt kê trong một đoạn giữa hai số nguyên cho trước có bao nhiêu số đẹp như vậy
+
+// Input
+// Chỉ có một dòng ghi hai số nguyên dương a,b (a có thể lớn hơn b) không quá 1000. 
+// Output
+// Ghi ra các số thỏa mãn trên một dòng, cách nhau một khoảng trống.
+
+// Ví dụ:
+// Input:
+// 2 50
+// Output:
+// 2 3 5 11 17 23 41
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<math.h>

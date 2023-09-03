@@ -1,3 +1,23 @@
+// CHIA HẾT
+
+// Cho hai số nguyên dương n và k. Hãy kiểm tra xem giai thừa của n (n!) có chia hết cho 2^k hay không.
+
+// Input
+// Có một dòng ghi 2 số n và k (1 ≤ n, k ≤ 100).
+// Output
+// Nếu n! chia hết cho 2^k thì in ra “Yes”, ngược lại in ra “No”.
+
+// Ví dụ:
+// Input:
+// 5 3
+// Output:
+// Yes
+
+// Input:
+// 1 1
+// Output:
+// No
+
 #include<stdio.h>
 
 void main(){

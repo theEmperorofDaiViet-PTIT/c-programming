@@ -1,3 +1,19 @@
+// SỐ ĐẸP 3
+
+// Một số được coi là số đẹp nếu nó là số thuận nghịch, có chứa ít nhất một chữ số 6, và tổng các chữ số của nó có chữ số cuối cùng là 8.
+// Viết chương trình liệt kê trong một đoạn giữa hai số nguyên [a,b] cho trước có bao nhiêu số đẹp như vậy
+
+// Input:
+// Chỉ có một dòng ghi hai số a, b.
+// Output:
+// Ghi ra kết quả tính toán trên một dòng
+
+// Ví dụ:
+// Input:
+// 1 500
+// Output:
+// 161
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<math.h>

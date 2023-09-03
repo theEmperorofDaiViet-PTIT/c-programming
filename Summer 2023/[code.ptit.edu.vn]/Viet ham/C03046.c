@@ -1,3 +1,25 @@
+// CHỮ SỐ 4
+
+// Nam rất ghét chữ số 4 nên không muốn xuất hiện chữ số 4 trong các số may mắn của mình. 
+// Dãy số may mắn của Nam có N chữ số và phải thỏa mãn tính chất thuận nghịch, tổng chữ số phải chia hết cho 10.
+// Cho số N, hãy liệt kê các số may mắn của Nam với đúng N chữ số.
+
+// Input
+// Dòng đầu ghi số bộ test
+// Mỗi bộ test ghi số N (1 < N < 7)
+// Output
+// Với mỗi bộ test, ghi ra lần lượt các số may mắn có N chữ số, các số cách nhau một khoảng trống.
+// Hết một bộ test thì xuống dòng.
+
+// Ví dụ:
+// Input:
+// 2
+// 2
+// 3
+// Output:
+// 55
+// 181 262 505 686 767 929
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<math.h>

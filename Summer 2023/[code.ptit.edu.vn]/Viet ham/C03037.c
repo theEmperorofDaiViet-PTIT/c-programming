@@ -1,3 +1,22 @@
+// ĐẾM CHỮ SỐ NGUYÊN TỐ
+
+// Viết chương trình nhập vào một số n, không quá 18 chữ số.
+// Hãy thực hiện đếm số lần xuất hiện của các chữ số nguyên tố trong n và in ra màn hình. 
+// (Liệt kê theo thứ tự xuất hiện các chữ số)
+
+// Input
+// Chỉ có một số nguyên dương N không quá 18 chữ số. 
+// Output
+// Ghi ra kết quả, mỗi dòng ghi một số nguyên tố và số lần xuất hiện theo thứ tự xuất hiện.
+
+// Ví dụ:
+// Input:
+// 112345
+// Output:
+// 2 1
+// 3 1
+// 5 1
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<string.h>

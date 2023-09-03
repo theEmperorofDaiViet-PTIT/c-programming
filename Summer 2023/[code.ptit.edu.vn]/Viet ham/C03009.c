@@ -1,3 +1,19 @@
+// SỐ HOÀN HẢO TRONG ĐOẠN
+
+// Viết chương trình C cho phép nhập vào hai số a và b (không quá 6 chữ số, a có thể lớn hơn b). 
+// Thực hiện liệt kê các số hoàn hảo nằm trong đoạn từ [a,b].
+
+// Input:
+// Chỉ có một dòng ghi hai số a, b.
+// Output:
+// Ghi ra kết quả tính toán trên một dòng
+
+// Ví dụ:
+// Input:
+// 1 1000
+// Output:
+// 6 28 496
+
 #include<stdio.h>
 #include<math.h>
 

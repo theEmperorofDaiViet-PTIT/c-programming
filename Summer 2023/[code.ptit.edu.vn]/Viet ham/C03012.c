@@ -1,3 +1,19 @@
+// KIỂM TRA SỐ FIBONACCI 1
+
+// Nhập vào một số n không quá 8 chữ số và kiểm tra số đó có thuộc dãy Fibonacci hay không. 
+// Nếu thỏa mãn in ra 1, ngược lại in ra 0.
+
+// Input:
+// Chỉ có một số nguyên dương, không quá 8 chữ số.
+// Output:
+// In ra kết quả kiểm tra
+
+// Ví dụ:
+// Input:
+// 8
+// Output:
+// 1
+
 #include<stdio.h>
 
 int fibonacci(int n);

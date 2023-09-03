@@ -1,3 +1,22 @@
+// ĐẾM SỐ NGUYÊN TỐ
+
+// Viết chương trình đếm xem trong đoạn [a,b] có bao nhiêu số là số nguyên tố và tất cả các chữ số của nó cũng là số nguyên tố.
+
+// Input
+// Dòng đầu ghi số bộ test
+// Mỗi bộ test ghi 2 số a, b (1 < a < b < 10^6)
+// Output
+// Với mỗi bộ test, ghi ra số lượng số thỏa mãn trên một dòng.
+
+// Ví dụ:
+// Input:
+// 2
+// 10 100
+// 1234 5678
+// Output:
+// 4
+// 26
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<math.h>

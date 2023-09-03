@@ -1,3 +1,20 @@
+// SỐ STRONG NHỎ HƠN N
+
+// Số Strong là số thỏa mãn có tổng giai thừa các chữ số của nó bằng chính nó. Ví dụ: 145 = 1! + 4! + 5!
+// Viết chương trình nhập vào số n không quá 9 chữ số và liệt kê các số Strong nhỏ hơn n 
+// (Các kết quả thỏa mãn được liệt kê trên một dòng cách nhau một khoảng trống)
+
+// Input:
+// Chỉ có một dòng ghi số n.
+// Output:
+// Ghi ra kết quả tính toán trên một dòng
+
+// Ví dụ:
+// Input:
+// 1000
+// Output:
+// 1 2 145
+
 #include<stdio.h>
 
 int checkStrong(int n);
