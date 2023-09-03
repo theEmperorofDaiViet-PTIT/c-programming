@@ -1,3 +1,23 @@
+// SỐ ĐỨNG ĐẦU
+
+// Cho dãy số A[] gồm có N phần tử. Một phần tử được gọi là số đứng đầu nếu như nó lớn hơn tất cả các phần tử nằm bên phải của nó.
+// Nhiệm vụ của bạn là hãy tìm các số đứng đầu trong dãy số A[] đã cho.
+
+// Input:
+// Dòng đầu tiên là số lượng bộ test T (T ≤ 10).
+// Mỗi test gồm số nguyên N (1 ≤ N ≤ 1000), số lượng phần tử trong dãy số ban đầu.
+// Dòng tiếp theo gồm N số nguyên A[i] (0 ≤ A[i] ≤ 106).
+// Output:
+// Với mỗi test, in ra trên một dòng các số tìm được, in ra theo thứ tự giảm dần.
+
+// Ví dụ:
+// Input:
+// 1
+// 6
+// 16 17 4 3 5 2
+// Output:
+// 17 5 2
+
 #include<stdio.h>
 
 void main(){

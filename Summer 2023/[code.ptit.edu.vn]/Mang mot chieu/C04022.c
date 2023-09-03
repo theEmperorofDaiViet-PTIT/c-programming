@@ -1,3 +1,22 @@
+// LỚN NHẤT VÀ LỚN THỨ HAI
+
+// Viết chương trình nhập vào mảng A có n phần tử số nguyên (2 < n < 100). 
+// Tìm giá trị lớn nhất và lớn thứ hai trong mảng.
+// Dữ liệu vào đảm bảo dãy có ít nhất 2 số khác nhau.
+
+// Input
+// Dòng thứ nhất là số phần tử của mảng A.
+// Dòng thứ hai là các phần tử của mảng A.
+// Output
+// Ghi ra kết quả trên một dòng.
+
+// Ví dụ:
+// Input:
+// 6
+// 80 23 79 58 11 10
+// Output:
+// 80 79
+
 #include<stdio.h>
 
 void sort(int a[], int n);

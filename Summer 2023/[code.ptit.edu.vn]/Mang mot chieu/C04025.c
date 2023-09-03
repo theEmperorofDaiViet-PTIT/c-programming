@@ -1,3 +1,22 @@
+// SẮP XẾP CHẴN LẺ
+
+// Viết chương trình nhập vào mảng A gồm n phần tử (1 < n < 100). 
+// Thực hiện sắp xếp tăng dần các phần tử chẵn và lẻ của mảng và In ra.
+
+// Trong đó:
+// INPUT
+// Hàng thứ nhất là số phần tử n của mảng A
+// Hàng thứ hai là các phần tử của mảng A
+// OUTPUT
+// Mảng kết quả in lần lượt dãy số chẵn sau đó đến dãy số lẻ. 
+
+// Ví dụ:
+// INPUT
+// 8
+// 1 3 8 2 9 7 6 5
+// OUTPUT
+// 2 6 8 1 3 5 7 9
+
 #include<stdio.h>
 
 void sort(int a[], int n);

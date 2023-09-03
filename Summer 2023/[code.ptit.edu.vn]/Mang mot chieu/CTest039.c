@@ -1,3 +1,24 @@
+// SẮP XẾP CHỮ SỐ
+
+// Cho số nguyên dương N có không quá 18 chữ số. 
+// Hãy sắp xếp các chữ số của N theo thứ tự tăng dần từ trái sang phải để tạo một số mới và in kết quả ra màn hình.
+
+// Input
+// Dòng đầu ghi số bộ test (không quá 10)
+// Mỗi bộ test viết trên một dòng số nguyên dương N có không quá 18 chữ số
+// Output
+// Với mỗi bộ test, viết ra số tạo được sau khi đã sắp xếp các chữ số.
+// Chú ý: Bỏ qua các chữ số 0 ở đầu (nếu có).
+
+// Ví dụ:
+// Input:
+// 2
+// 347120
+// 44774477
+// Output:
+// 12347
+// 44447777
+
 #include<stdio.h>
 #include<stdbool.h>
 

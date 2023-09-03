@@ -1,3 +1,25 @@
+// SẮP XẾP CHỌN - 2
+
+// Viết chương trình C cho phép nhập vào mảng A gồm n phần tư (1 < n < 100). 
+// Thực hiện sắp xếp tăng dần các phần tử của mảng theo thuật toán chọn và In ra.
+
+// Trong đó:
+// INPUT
+// Hàng thứ nhất là số phần tử n của mảng A
+// Hàng thứ hai là các phần tử của mảng A
+// OUTPUT
+// Kết quả các bước sắp xếp theo thuật toán
+
+// Ví dụ:
+// INPUT:
+// 5
+// 64 25 12 22 11
+// OUTPUT:
+// 11 25 12 22 64
+// 11 12 25 22 64
+// 11 12 22 25 64
+// 11 12 22 25 64
+
 #include<stdio.h>
 
 void sort(int a[], int n);

@@ -1,3 +1,38 @@
+// CHIẾU SÁNG
+
+// Chính quyền thành phố Highland đã lên kế hoạch để sửa tuyến đường ven biển sau khi được sửa chữa tạm thời. 
+// Tuyến đường có chiều dài bằng N, và hiện tại có M chiếc đèn cao áp đang hoạt động. 
+// Tầm chiếu sáng của mỗi chiếc đèn là K, nghĩa là tại vị trí X nếu được dựng đèn, nó sẽ chiếu sáng cho khu vực từ X – K tới X + K.
+// Các bạn hãy thử tính xem cần dựng thêm ít nhất bao nhiêu đèn để tuyến đường có thể được chiếu sáng hoàn toàn?
+
+// Input:
+// Dòng đầu tiên là chiều dài của tuyến đường N (1 ≤ N ≤ 1000).
+// Tiếp theo là số lượng chiếc đèn đang hoạt động, M (M ≤ N).
+// Dòng tiếp theo chứa số nguyên K (0 ≤ K ≤ N).
+// Dòng cuối chứa M số nguyên, lần lượt là vị trí của những chiếc đèn đang có.
+// Output: 
+// In ra một số nguyên là đáp án đáp án tìm được.
+
+// Ví dụ:
+// Test 1:
+// Input:
+// 6
+// 2
+// 2
+// 1 5
+// Output:
+// 0
+
+// Test 2:
+// Input:
+// 15
+// 3
+// 10
+// 1 2 3
+// Output:
+// 1
+// Giải thích test 2: Dựng thêm một chiếc đèn tại vị trí 15.
+
 #include<stdio.h>
 
 void main(){

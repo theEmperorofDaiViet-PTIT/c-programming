@@ -1,3 +1,24 @@
+// CHÈN MẢNG 2
+
+// Nhập 2 mảng (a, N) và (b, M) và số nguyên p (0 ≤ p < M <= N < 100). Hãy chèn mảng b vào vị trí p của mảng a.
+// Input: 
+// Dòng đầu ghi số bộ test, mỗi bộ test gồm 3 dòng: 
+// Dòng đầu ghi 3 số N, M, p. 
+// Dòng thứ 2 ghi N số của mảng a.  
+// Dòng thứ 3 ghi M số của mảng b.
+
+// Output: ghi ra thứ tự bộ test, rồi xuống dòng và dãy số kết quả sau khi chèn.
+
+// Ví dụ:
+// Input:
+// 1
+// 4 3 1
+// 5 3 6 7
+// 2 9 11
+// Output:
+// Test 1:
+// 5 2 9 11 3 6 7
+
 #include<stdio.h>
 
 void main(){
