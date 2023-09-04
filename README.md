@@ -26,7 +26,7 @@
 </p>
 
 # About The Project
-My C source code for competitive programming at university.
+My C source code for competitive programming at university. I hope this helps somebody. :wink: :heartbeat:
 
 ## Built With
 * [![C][C-shield]][C-url]
@@ -55,6 +55,11 @@ After cloning the repository, you can open it by your text editor/IDE and use th
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Key Features
+* Solutions of many C competitive programming questions at my beloved university.
+  * 223 problems on *[code.ptit.edu.vn](https://code.ptit.edu.vn)*
+  * 66 problems on *[medianews.vn](https://medianews.vn)*
+
+- All solutions come with corresponding question detail.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
