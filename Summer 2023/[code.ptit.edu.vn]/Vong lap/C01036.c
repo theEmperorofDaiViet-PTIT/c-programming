@@ -1,3 +1,19 @@
+// TÍCH CHỮ SỐ
+
+// Cho một số nguyên dương N.
+// Thực hiện tìm tích của các chữ số và in ra màn hình.
+
+// Input
+// Chỉ có một dòng ghi số nguyên dương N (không quá 9 chữ số)
+// Output
+// Ghi ra kết quả trên một dòng
+
+// Ví dụ:
+// Input:
+// 1234
+// Output:
+// 24
+
 #include<stdio.h>
 
 void main(){

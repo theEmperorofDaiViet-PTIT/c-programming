@@ -1,3 +1,19 @@
+// PHÂN TÍCH THỪA SỐ NGUYÊN TỐ 2
+
+// Viết chương trình phân tích một số nguyên dương (không quá 6 chữ số) thành tích các thừa số nguyên tố.
+// Kết quả được viết theo mẫu trong Ví dụ (có chữ x giữa các thừa số)
+
+// Input:
+// Chỉ có một dòng ghi số n.
+// Output:
+// Ghi ra kết quả tính toán
+
+// Ví dụ:
+// Input:
+// 28
+// Output:
+// 2x2x7
+
 #include<stdio.h>
 #include<math.h>
 

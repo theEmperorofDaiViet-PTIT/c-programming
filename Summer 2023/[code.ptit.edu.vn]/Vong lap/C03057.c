@@ -1,3 +1,24 @@
+// TÍNH TỔNG NHỎ NHẤT VÀ LỚN NHẤT
+
+// Cho hai số nguyên dương X1, X2. Ta chỉ được phép thay đổi chữ số 5 thành 6 và ngược lại chữ số 6 thành chữ số 5 của các số X1 và X2. 
+// Hãy đưa ra tổng nhỏ nhất và tổng lớn nhất các số X1 và X2 được tạo ra theo nguyên tắc kể trên.
+
+// Input:
+// Dòng đầu tiên đưa vào số lượng bộ test T.
+// Những dòng kế tiếp đưa vào T bộ test. Mỗi bộ test là cặp các số X1, X2.
+// T, X1, X2 thỏa mãn ràng buộc: 1 ≤ T ≤ 100; 0 ≤ X1, X2 ≤ 10^18.
+// Output:
+// Đưa ra kết quả mỗi test theo từng dòng.
+
+// Ví dụ:
+// Input:
+// 2
+// 645  666
+// 5466 4555
+// Output:
+// 1100  1312
+// 10010 11132
+
 #include<stdio.h>
 #include<stdbool.h>
 
