@@ -1,3 +1,20 @@
+// LOẠI BỎ TỪ TRONG XÂU
+
+// Cho xâu ký tự S1 và một từ S2. Viết chương trình loại bỏ tất cả các từ S2 xuất hiện trong S1
+
+// Input:
+// Dòng đầu ghi xâu S1 (độ dài không quá 100).
+// Dòng thứ 2 ghi từ S2.
+// Output:
+// Ghi ra xâu S1 sau khi đã loại bỏ các từ S2.
+
+// Ví dụ:
+// Input:
+// mon thcs2 la mon 2tc
+// mon
+// Output:
+// thcs2 la 2tc
+
 #include<stdio.h>
 #include<string.h>
 

@@ -1,3 +1,23 @@
+// ĐẾM SỐ LẦN XUẤT HIỆN CÁC TỪ TRONG XÂU
+
+// Tìm số lần xuất hiện các từ trong xâu S (không phân biệt chữ hoa chữ thường). 
+// Kết quả in ra từ (ở dạng in thường) và số lần xuất hiện của chúng
+
+// Input:
+// Chỉ có một dòng ghi xâu S.
+// Output:
+// Ghi ra kết quả đếm từng từ theo thứ tự xuất hiện.
+
+// Ví dụ:
+// Input:
+// aaa bbb ccc AA bb aa ccc aa
+// Output:
+// aaa 1
+// bbb 1
+// ccc 2
+// aa 3
+// bb 1
+
 #include<stdio.h>
 #include<string.h>
 #include<stdbool.h>

@@ -1,3 +1,27 @@
+// HIỆU HAI SỐ NGUYÊN LỚN
+
+// Viết chương trình tính hiệu của hai số nguyên lớn. Chú ý: luôn luôn lấy số lớn hơn trừ đi số nhỏ hơn.
+
+// Input:
+// Dòng 1 ghi số bộ test
+// Mỗi bộ test gồm 2 dòng, mỗi dòng ghi một số không quá 1000 chữ số.
+// Output:
+// Với mỗi bộ test ghi ra kết quả tính toán tương ứng
+
+// Ví dụ:
+// Input:
+// 3
+// 456
+// 789
+// 100000000000000000000000000001
+// 99
+// 123456789012345678901234567890
+// 1234567890
+// Output:
+// 333
+// 99999999999999999999999999902
+// 123456789012345678900000000000
+
 #include<stdio.h>
 #include<stdbool.h>
 

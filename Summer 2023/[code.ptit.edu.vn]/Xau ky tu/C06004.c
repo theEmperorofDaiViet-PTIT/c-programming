@@ -1,3 +1,18 @@
+// ĐẾM KÝ TỰ
+
+// Viết chương trình nhập vào một xâu ký tự S, thực hiện phân tích xâu đã nhập chứa bao nhiêu chữ cái, chữ số và các ký tự khác.
+
+// Input:
+// Chỉ có một dòng ghi xâu S.
+// Output:
+// Ghi ra kết quả theo mẫu trong ví dụ: số chữ cái, số chữ số, số các ký tự khác.
+
+// Ví dụ:
+// Input:
+// mon thcs mon THCS 2 ...
+// Output:
+// 14 1 8
+
 #include<stdio.h>
 #include<string.h>
 

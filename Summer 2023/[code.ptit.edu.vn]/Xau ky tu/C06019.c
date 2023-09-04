@@ -1,3 +1,19 @@
+// ĐỊA CHỈ EMAIL PTIT
+
+// Địa chỉ email của cán bộ PTIT được cấp theo nguyên tắc ghép tên với chữ cái đầu tiên của họ và tên đệm. 
+// Viết chương trình cho phép tạo các địa chỉ email theo tên cán bộ (có thể không chuẩn).
+
+// Input:
+// Chỉ có một dòng ghi xâu họ tên (độ dài không quá 50)
+// Output:
+// Ghi ra kết quả.
+
+// Ví dụ:
+// Input:
+// ngUYEN van nam
+// Output:
+// nvnam@ptit.edu.vn
+
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>

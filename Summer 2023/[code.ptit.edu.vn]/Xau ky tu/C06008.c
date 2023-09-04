@@ -1,3 +1,18 @@
+// LOẠI CÁC TỪ TRÙNG NHAU
+
+// Cho xâu ký tự S có độ dài không quá 100. Hãy loại bỏ các từ trùng nhau trong xâu.
+
+// Input:
+// Chỉ có một dòng ghi xâu S.
+// Output:
+// Ghi ra kết quả sau khi loại các từ trùng nhau.
+
+// Ví dụ:
+// Input:
+// mon thcs2 hoc la mon 2tc hoc
+// Output:
+// mon thcs2 hoc la 2tc
+
 #include<stdio.h>
 #include<string.h>
 #include<stdbool.h>

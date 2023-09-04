@@ -1,3 +1,26 @@
+// TỔNG HAI SỐ NGUYÊN LỚN
+
+// Viết chương trình cộng hai số nguyên dương bất kỳ (không quá 500 chữ số).
+
+// Input:
+// Dòng 1 ghi số bộ test. Mỗi bộ test gồm 2 dòng, mỗi dòng ghi một số nguyên dương
+// Output:
+// Với mỗi bộ test ghi ra một số nguyên dương là tổng hai số đã cho (số này cũng không quá 500 chữ số).
+
+// Ví dụ:
+// Input:
+// 3
+// 12
+// 100
+// 1212
+// 8888
+// 121212121212121212
+// 45678978
+// Output:
+// 112
+// 10100
+// 121212121257800190
+
 #include<stdio.h>
 #include<stdbool.h>
 

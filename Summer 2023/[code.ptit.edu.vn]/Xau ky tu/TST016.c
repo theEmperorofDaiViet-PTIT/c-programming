@@ -1,3 +1,25 @@
+// MẢNG KÝ TỰ
+
+// Một xâu được gọi là đối xứng nếu nó gồm các cặp dấu (), [], {}, '', "" có đủ bộ
+// Ví dụ: ()(), ((())()) là các xâu đối xứng
+// Cho một xâu, hãy cho biết nó là đối xứng (in ra 1), không đối xứng (in ra 0)
+
+// Vào:
+// Chuỗi các ký tự (,),{,},[,],',',"," trên một hàng
+// Ra:
+// 1 nếu chuỗi vào đối xứng, 0 nếu chuỗi vào không đối xứng
+
+// Ví dụ:
+// In:
+// ()()
+// Out:
+// 1
+
+// In:
+// (}()
+// Out:
+// 0
+
 #include<stdio.h>
 #include<stdbool.h>
 #include<string.h>
